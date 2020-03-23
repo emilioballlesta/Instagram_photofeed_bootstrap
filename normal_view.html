@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Instagram</title>
+  <link rel="icon" type="image/ico" href="https://image.flaticon.com/icons/png/512/87/87390.png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body class="normal-view-body">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"> <i class="fa fa-instagram"></i> Instagram</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item">
+          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Create a new
+            post</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-outline-secondary"><i class="fa fa-camera"></i></button>
+                  <button type="button" class="btn btn-outline-secondary"><i class="fa fa-map-marker"></i></button>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-success">Publish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-cog"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Log out</a>
+          </div>
+        </li>
+      </ul>
+      </form>
+    </div>
+  </nav>
+
+  <div class="principal-button-body">
+    <div class="mx-auto pt-2 pb-2" style="width: 200px;">
+      <a button href="index.html" type="button" class="btn btn-outline-light"><i class="fa fa-th"></i></a>
+      <a button href="normal_view.html" type="button" class="btn btn-outline-light active"><i
+          class="fa fa-square"></i></a>
+    </div>
+  </div>
+
+  <div class="mx-auto card mt-3" style="width: 30rem;">
+    <div class="card-body row pt-0 post-title">
+      <p class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-0 pl-0">My first photo</p>
+      <p class="pl-4 date">12/14</p>
+    </div>
+    <img src="https://i.pinimg.com/originals/2d/d2/45/2dd245ff22433258d8fbe1220ce66c64.jpg"
+      class="card-img-top mt-0 pt-0" alt="...">
+    <p class="likes pl-1">23 likes</p>
+    <div class="card-body pt-0 pl-1 pb-0">
+      <p class="body-posting">This is the first photo of the feed. This is a multi line comment for testing purposes. I
+        am learning to code with #BreathCode</p>
+      <p class="post-comments"><i class="fa fa-heart"></i> Comments...<i class="fa fa-ellipsis-v post-options"></i></p>
+    </div>
+  </div>
+
+  <div class="mx-auto card mt-3" style="width: 30rem;">
+    <div class="card-body row pt-0 post-title">
+      <p class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-0 pl-0">My first photo</p>
+      <p class="pl-4 date">12/14</p>
+    </div>
+    <img src="https://www.viajarlosangeles.com/img/guia-viajar-los-angeles.jpg" class="card-img-top mt-0 pt-0"
+      alt="...">
+    <p class="likes pl-1">23 likes</p>
+    <div class="card-body pt-0 pl-1 pb-0">
+      <p class="body-posting">This is the first photo of the feed. This is a multi line comment for testing purposes. I
+        am learning to code with #BreathCode</p>
+      <p class="post-comments"><i class="fa fa-heart"></i> Comments...<i class="fa fa-ellipsis-v post-options"></i></p>
+    </div>
+  </div>
+
+  <div class="mx-auto card mt-3" style="width: 30rem;">
+    <div class="card-body row pt-0 post-title">
+      <p class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-0 pl-0">My first GIF</p>
+      <p class="pl-4 date">12/14</p>
+    </div>
+    <img
+      src="https://camo.githubusercontent.com/68f6e61aa72d6a3edd022bc7c26787e415013940/687474703a2f2f692e696d6775722e636f6d2f34595355354a362e676966"
+      class="card-img-top mt-0 pt-0" alt="...">
+    <p class="likes pl-1">23 likes</p>
+    <div class="card-body pt-0 pl-1 pb-0">
+      <p class="body-posting">This is the first photo of a GIF. This is a multi line comment for testing purposes. I am
+        learning to code with #BreathCode</p>
+      <p class="post-comments"><i class="fa fa-heart"></i> Comments...<i class="fa fa-ellipsis-v post-options"></i></p>
+    </div>
+  </div>
+
+  <div class="mx-auto card mt-3" style="width: 30rem;">
+    <div class="card-body row pt-0 post-title">
+      <p class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-0 pl-0">My first photo</p>
+      <p class="pl-4 date">12/14</p>
+    </div>
+    <img src="https://www.mundiario.com/media/mundiario/images/2018/02/08/2018020820152955842.png"
+      class="card-img-top mt-0 pt-0" alt="...">
+    <p class="likes pl-1">23 likes</p>
+    <div class="card-body pt-0 pl-1 pb-0">
+      <p class="body-posting">This is the first photo of the feed. This is a multi line comment for testing purposes. I
+        am learning to code with #BreathCode</p>
+      <p class="post-comments"><i class="fa fa-heart"></i> Comments...<i class="fa fa-ellipsis-v post-options"></i></p>
+    </div>
+  </div>
+
+  <div class="mx-auto card mt-3" style="width: 30rem;">
+    <div class="card-body row pt-0 post-title">
+      <p class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-0 pl-0">My first photo</p>
+      <p class="pl-4 date">12/14</p>
+    </div>
+    <img src="https://catrinagoddess.files.wordpress.com/2017/10/ramazzotti-rosato-botella-2.jpg?w=1200"
+      class="card-img-top mt-0 pt-0" alt="...">
+    <p class="likes pl-1">23 likes</p>
+    <div class="card-body pt-0 pl-1 pb-0">
+      <p class="body-posting">This is the first photo of the feed. This is a multi line comment for testing purposes. I
+        am learning to code with #BreathCode</p>
+      <p class="post-comments"><i class="fa fa-heart"></i> Comments...<i class="fa fa-ellipsis-v post-options"></i></p>
+    </div>
+  </div>
+
+  <div class="mx-auto card mt-3" style="width: 30rem;">
+    <div class="card-body row pt-0 post-title">
+      <p class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-0 pl-0">My first photo</p>
+      <p class="pl-4 date">12/14</p>
+    </div>
+    <img src="https://los40.com.mx/los40/imagenes/2019/07/30/actualidad/1564518770_400067_1564607018_gigante_normal.jpg"
+      class="card-img-top mt-0 pt-0" alt="...">
+    <p class="likes pl-1">23 likes</p>
+    <div class="card-body pt-0 pl-1 pb-0">
+      <p class="body-posting">This is the first photo of the feed. This is a multi line comment for testing purposes. I
+        am learning to code with #BreathCode</p>
+      <p class="post-comments"><i class="fa fa-heart"></i> Comments...<i class="fa fa-ellipsis-v post-options"></i></p>
+    </div>
+  </div>
+
+  <div class="mx-auto card mt-3" style="width: 30rem;">
+    <div class="card-body row pt-0 post-title">
+      <p class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-0 pl-0">My first video</p>
+      <p class="pl-4 date">12/14</p>
+    </div>
+    <iframe src="https://www.youtube.com/embed/L4p-g3AprzU" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="likes pl-1">23 likes</p>
+    <div class="card-body pt-0 pl-1 pb-0">
+      <p class="body-posting">This is the first video of the feed. This is a multi line comment for testing purposes. I
+        am learning to code with #BreathCode</p>
+      <p class="post-comments"><i class="fa fa-heart"></i> Comments...<i class="fa fa-ellipsis-v post-options"></i></p>
+    </div>
+  </div>
+
+  <div class="mx-auto card mt-3" style="width: 30rem;">
+    <div class="card-body row pt-0 post-title">
+      <p class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-0 pl-0">My first photo</p>
+      <p class="pl-4 date">12/14</p>
+    </div>
+    <img src="https://www.gamecored.com/wp-content/uploads/2018/10/portadasnotas18-1620x800.jpg"
+      class="card-img-top mt-0 pt-0" alt="...">
+    <p class="likes pl-1">23 likes</p>
+    <div class="card-body pt-0 pl-1 pb-0">
+      <p class="body-posting">This is the first photo of the feed. This is a multi line comment for testing purposes. I
+        am learning to code with #BreathCode</p>
+      <p class="post-comments"><i class="fa fa-heart"></i> Comments...<i class="fa fa-ellipsis-v post-options"></i></p>
+    </div>
+  </div>
+
+  <div class="mx-auto card mt-3" style="width: 30rem;">
+    <div class="card-body row pt-0 post-title">
+      <p class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 pt-0 pl-0">My first photo</p>
+      <p class="pl-4 date">12/14</p>
+    </div>
+    <img src="https://careertraining.ed2go.com/common/images/2/21042/java-programmer-python-dev-935x572.jpg"
+      class="card-img-top mt-0 pt-0" alt="...">
+    <p class="likes pl-1">23 likes</p>
+    <div class="card-body pt-0 pl-1 pb-0">
+      <p class="body-posting">This is the first photo of the feed. This is a multi line comment for testing purposes. I
+        am learning to code with #BreathCode</p>
+      <p class="post-comments"><i class="fa fa-heart"></i> Comments...<i class="fa fa-ellipsis-v post-options"></i></p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

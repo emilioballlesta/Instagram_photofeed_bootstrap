@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color:white;
+  }
+
+.normal-view-body {
+    margin: 0;
+    background-color:lightgray;
+}
+
+.principal-button-body{ 
+    background-color:white
+}
+
+.date, .post-comments {
+    color: grey;
+}
+
+.likes{
+    font-size:16px;
+    font-weight: bold;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.body-posting {
+    font-size:15px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: justify;
+}
+
+.post-options {
+    float: right;
+}
+
+.post-title {
+    height: 30px;
+    font-size:20px;
+}
+
+img, iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card-img {
+    width: 400px;
+    height: 200px;
+    display: block;
+}
